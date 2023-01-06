@@ -72,8 +72,15 @@ nav ul{
     margin-bottom: 20px;
 }
 
-/* About */
+                    /* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+                        /* About */
 .about{
+    text-align: center;
     margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
@@ -81,12 +88,30 @@ nav ul{
 }
 
 .section-title{
-    text-align: center;
     margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
 }
 
 .section-description{
     color: #757575;
+    font-weight: 400;
     font-size: 18px;
     margin-bottom: 30px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .info-title{
+    font-size: 20px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(71, 71, 71, 1);
 }
